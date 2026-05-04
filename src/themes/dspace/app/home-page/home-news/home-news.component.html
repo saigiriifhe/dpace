@@ -1,0 +1,78 @@
+<div class="background-image-container mt-ncs">
+  <div class="container">
+    <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
+      @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
+        <div class="container">
+          <div class="jumbotron jumbotron-fluid">
+            <ds-markdown-viewer [value]="homeNewsMetadataValue"></ds-markdown-viewer>
+          </div>
+        </div>
+      }
+      @else {
+        <div class="d-flex flex-wrap">
+          <div>
+            <h4 class="display-4">IFHE (ICFAI Foundation for Higher Education)</h4>
+            <!-- <p><i class="fas fa-circle-info"></i> This site is running unreleased code which will eventually become DSpace 10. For more information, see the <a href="https://wiki.lyrasis.org/display/DSPACE/DSpace+Release+10.0+Status" role="link" tabindex="0">DSpace 10 Release Status</a>.</p> -->
+             <P>  The ICFAI Foundation for Higher Education (IFHE) is a premier institution dedicated to academic excellence and research. This digital library serves as a central platform for accessing academic resources, research publications, and learning materials for students and faculty.</P>
+            <p class="lead">The ICFAI Foundation for Higher Education (IFHE) is a leading institution focused on providing quality education and promoting research across multiple disciplines.
+This digital repository serves as a central platform for preserving and providing access to the University's academic and research outputs, supporting students, faculty, and scholars in their learning and research activities.
+</p>
+          </div>
+          <div>
+            <ul>
+              <li>committed to excellence in teaching, research, and academic development
+              </li>
+              <li>offers comprehensive programs designed to meet global education standards
+              </li>
+              <li>equipped with advanced infrastructure and learning facilities
+              </li>
+              <li>fosters innovation, ethics, and leadership among students</li>
+<li>maintains strong collaborations with industry and academia</li>
+            </ul>
+
+
+
+           <p>
+  Welcome to the Digital Repository of the ICFAI Foundation for Higher Education (IFHE). 
+  This platform provides access to a rich collection of academic resources, research publications, 
+  theses, and institutional materials.
+</p>
+            <p>
+  Our repository supports students, faculty, and researchers by offering a centralized system 
+  to explore, access, and preserve scholarly content for academic and research excellence.
+</p>
+           <ul>
+  <li>access a wide range of books, journals, theses, and research publications</li>
+  <li>discover academic resources across multiple disciplines</li>
+  <li>support research, learning, and knowledge sharing within the university</li>
+  <li>enable easy access to institutional publications and scholarly work</li>
+</ul>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+
+  <picture class="background-image">
+  <source type="image/webp"
+          srcset="assets/dspace/images/banner1.webp 2000w,
+                  assets/dspace/images/banner-half1.webp 1200w,
+                  assets/dspace/images/banner-tall1.webp 768w">
+
+  <source type="image/jpeg"
+          srcset="assets/dspace/images/banner1.jpg 2000w,
+                  assets/dspace/images/banner1-half.jpg 1200w,
+                  assets/dspace/images/banner1-tall.jpg 768w">
+
+  <img alt=""
+       src="assets/dspace/images/banner.png"
+       class="banner-img"/>
+</picture>
+
+<small class="credits">
+  © ICFAI Foundation for Higher Education (IFHE)
+</small>
+
+
+</div>
