@@ -4,75 +4,109 @@
       @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
         <div class="container">
           <div class="jumbotron jumbotron-fluid">
-            <ds-markdown-viewer [value]="homeNewsMetadataValue"></ds-markdown-viewer>
+            <ds-markdown-viewer
+              [value]="homeNewsMetadataValue"
+            ></ds-markdown-viewer>
           </div>
         </div>
-      }
-      @else {
+      } @else {
         <div class="d-flex flex-wrap">
           <div>
-            <h4 class="display-4">IFHE (ICFAI Foundation for Higher Education)</h4>
+            <div class="welcome-container">
+              <h1 class="welcome-title">
+                <div class="marquee-container">
+                  <div class="marquee-text">
+                    Welcome to Sri N J Yasaswy Memorial Library
+                  </div>
+                </div>
+                <span> Sri N J Yasaswy Memorial Library</span>
+              </h1>
+              <p class="welcome-subtitle">
+                Empowering Knowledge • Research • Innovation
+              </p>
+            </div>
+            <h4 class="display-4">
+              IFHE (ICFAI Foundation for Higher Education)
+            </h4>
             <!-- <p><i class="fas fa-circle-info"></i> This site is running unreleased code which will eventually become DSpace 10. For more information, see the <a href="https://wiki.lyrasis.org/display/DSPACE/DSpace+Release+10.0+Status" role="link" tabindex="0">DSpace 10 Release Status</a>.</p> -->
-             <P>  The ICFAI Foundation for Higher Education (IFHE) is a premier institution dedicated to academic excellence and research. This digital library serves as a central platform for accessing academic resources, research publications, and learning materials for students and faculty.</P>
-            <p class="lead">The ICFAI Foundation for Higher Education (IFHE) is a leading institution focused on providing quality education and promoting research across multiple disciplines.
-This digital repository serves as a central platform for preserving and providing access to the University's academic and research outputs, supporting students, faculty, and scholars in their learning and research activities.
-</p>
+            <p class="lead">
+              Sri N J Yasaswy Memorial Library is the central knowledge hub of
+              IFHE, dedicated to supporting academic excellence, research, and
+              lifelong learning. The library provides seamless access to a vast
+              collection of books, journals, research publications, theses, and
+              digital resources.
+            </p>
+
+            <p>
+              Designed to meet the evolving needs of students, faculty, and
+              researchers, the library integrates modern technology with rich
+              academic resources to create a dynamic and user-friendly learning
+              environment.
+            </p>
           </div>
           <div>
-            <ul>
-              <li>committed to excellence in teaching, research, and academic development
+            <ul class="feature-list">
+              <li>
+                extensive collection of academic books, journals, and digital
+                resources
               </li>
-              <li>offers comprehensive programs designed to meet global education standards
+              <li>
+                advanced digital repository for research publications and theses
               </li>
-              <li>equipped with advanced infrastructure and learning facilities
+              <li>
+                modern infrastructure with a technology-enabled learning
+                environment
               </li>
-              <li>fosters innovation, ethics, and leadership among students</li>
-<li>maintains strong collaborations with industry and academia</li>
+              <li>supports innovation, research, and knowledge sharing</li>
+              <li>
+                provides access to institutional and global academic resources
+              </li>
             </ul>
-
-
-
-           <p>
-  Welcome to the Digital Repository of the ICFAI Foundation for Higher Education (IFHE). 
-  This platform provides access to a rich collection of academic resources, research publications, 
-  theses, and institutional materials.
-</p>
             <p>
-  Our repository supports students, faculty, and researchers by offering a centralized system 
-  to explore, access, and preserve scholarly content for academic and research excellence.
-</p>
-           <ul>
-  <li>access a wide range of books, journals, theses, and research publications</li>
-  <li>discover academic resources across multiple disciplines</li>
-  <li>support research, learning, and knowledge sharing within the university</li>
-  <li>enable easy access to institutional publications and scholarly work</li>
-</ul>
+              The digital repository enables users to explore, access, and
+              preserve scholarly content efficiently, ensuring knowledge is
+              accessible anytime, anywhere.
+            </p>
+            <p>
+              Our repository supports students, faculty, and researchers by
+              offering a centralized system to explore, access, and preserve
+              scholarly content for academic and research excellence.
+            </p>
+
+            <ul class="feature-list">
+              <li>easy access to institutional research and publications</li>
+              <li>centralized platform for academic and scholarly resources</li>
+              <li>enhances learning, teaching, and research activities</li>
+              <li>secure and reliable access to digital content</li>
+            </ul>
           </div>
         </div>
       }
     </div>
   </div>
 
-
   <picture class="background-image">
-  <source type="image/webp"
-          srcset="assets/dspace/images/banner1.webp 2000w,
-                  assets/dspace/images/banner-half1.webp 1200w,
-                  assets/dspace/images/banner-tall1.webp 768w">
+    <source
+      type="image/webp"
+      srcset="
+        assets/dspace/images/unnamed.png 2000w,
+        assets/dspace/images/unnamed.png 1200w,
+        assets/dspace/images/unnamed.png  768w
+      "/>
 
-  <source type="image/jpeg"
-          srcset="assets/dspace/images/banner1.jpg 2000w,
-                  assets/dspace/images/banner1-half.jpg 1200w,
-                  assets/dspace/images/banner1-tall.jpg 768w">
+    <source
+      type="image/jpeg"
+      srcset="
+        assets/dspace/images/unnamed.png 2000w,
+        assets/dspace/images/unnamed.png 1200w,
+        assets/dspace/images/unnamed.png  768w
+      "
+    />
 
-  <img alt=""
-       src="assets/dspace/images/banner.png"
-       class="banner-img"/>
-</picture>
+    <img alt="" src="assets/dspace/images/unnamed.png" class="banner-img" />
+  </picture>
 
-<small class="credits">
-  © ICFAI Foundation for Higher Education (IFHE)
-</small>
-
-
+  <small class="credits">
+    © ICFAI Foundation for Higher Education (IFHE)
+  </small>
 </div>
