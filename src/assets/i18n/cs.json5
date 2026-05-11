@@ -7024,10 +7024,10 @@
   // "repository.image.logo": "Repository logo",
   "repository.image.logo": "Logo repozitáře",
 
-  // "repository.title": "DSpace Repository",
+  // "repository.title": "IFHE Repository",
   "repository.title": "Institucionální digitální repozitář",
 
-  // "repository.title.prefix": "DSpace Repository :: ",
+  // "repository.title.prefix": "IFHE Repository :: ",
   "repository.title.prefix": "IDR :: ",
 
   // "resource-policies.add.button": "Add",

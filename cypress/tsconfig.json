@@ -6,6 +6,8 @@
   ],
   "compilerOptions": {
     "sourceMap": false,
+    "rootDir": "..",
+    "ignoreDeprecations": "6.0",
     "typeRoots": [
       "../node_modules",
       "../node_modules/@types",

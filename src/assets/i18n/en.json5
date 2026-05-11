@@ -3790,7 +3790,7 @@
 
   "menu.section.registries_metadata": "Metadata",
 
-  "menu.section.statistics": "Knimbus",
+  "menu.section.statistics": "IFHE Knimbus",
 
   "menu.section.statistics_task": "Statistics Task",
 
@@ -4672,9 +4672,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "DSpace Repository",
+  "repository.title": "IFHE Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "IFHE Repository :: ",
 
   "resource-policies.add.button": "Add",
 

@@ -7680,10 +7680,10 @@
   // "repository.image.logo": "Repository logo",
   "repository.image.logo": "Julkaisuarkiston logo",
 
-  // "repository.title": "DSpace Repository",
+  // "repository.title": "IFHE Repository",
   "repository.title": "Julkaisuarkisto",
 
-  // "repository.title.prefix": "DSpace Repository :: ",
+  // "repository.title.prefix": "IFHE Repository :: ",
   "repository.title.prefix": "Julkaisuarkisto :: ",
 
   // "resource-policies.add.button": "Add",

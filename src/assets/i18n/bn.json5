@@ -7260,12 +7260,12 @@
   // "repository.image.logo": "Repository logo",
   "repository.image.logo": "রিপোজিটরি লোগো",
 
-  // "repository.title": "DSpace Repository",
+  // "repository.title": "IFHE Repository",
   "repository.title": "ডিএসস্পেস সংগ্রহস্থল",
 
-  // "repository.title.prefix": "DSpace Repository :: ",
+  // "repository.title.prefix": "IFHE Repository :: ",
   // TODO New key - Add a translation
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "IFHE Repository :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "যোগ করুন",

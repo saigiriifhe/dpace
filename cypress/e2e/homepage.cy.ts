@@ -6,8 +6,8 @@ describe('Homepage', () => {
     cy.visit('/');
   });
 
-  it('should display translated title "DSpace Repository :: Home"', () => {
-    cy.title().should('eq', 'DSpace Repository :: Home');
+  it('should display translated title "IFHE Repository :: Home"', () => {
+    cy.title().should('eq', 'IFHE Repository :: Home');
   });
 
   it('should contain a news section', () => {

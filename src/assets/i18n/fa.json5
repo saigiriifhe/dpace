@@ -8480,13 +8480,13 @@
   // TODO New key - Add a translation
   "repository.image.logo": "Repository logo",
 
-  // "repository.title": "DSpace Repository",
+  // "repository.title": "IFHE Repository",
   // TODO New key - Add a translation
-  "repository.title": "DSpace Repository",
+  "repository.title": "IFHE Repository",
 
-  // "repository.title.prefix": "DSpace Repository :: ",
+  // "repository.title.prefix": "IFHE Repository :: ",
   // TODO New key - Add a translation
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "IFHE Repository :: ",
 
   // "resource-policies.add.button": "Add",
   // TODO New key - Add a translation
