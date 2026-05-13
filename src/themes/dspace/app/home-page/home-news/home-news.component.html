@@ -1,100 +1,137 @@
-<div class="background-image-container mt-ncs">
-  <div class="container">
-    <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
-      @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
-        <div class="container">
-          <div class="jumbotron jumbotron-fluid">
-            <ds-markdown-viewer
-              [value]="homeNewsMetadataValue"
-            ></ds-markdown-viewer>
-          </div>
-        </div>
-      } @else {
-        <div class="d-flex flex-wrap">
-          <div>
-            <div class="welcome-container">
-              <h1 class="welcome-title">
-                <div class="marquee-container">
-                
-                </div>
-                 <h4 class="display-4">
-              IFHE (ICFAI Foundation for Higher Education)
-            </h4>
-                <span>  N J Yasaswy Memorial Library</span>
-                <br>
-                <span > Institutional Repository </span>
+<div class="library-home-page">
 
-              </h1>
-              
-            </div>
-           
-           
+  @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
 
-           
-          </div>
-          <!-- <div>
-            <ul class="feature-list">
-              <li>
-                extensive collection of academic books, journals, and digital
-                resources
-              </li>
-              <li>
-                advanced digital repository for research publications and theses
-              </li>
-              <li>
-                modern infrastructure with a technology-enabled learning
-                environment
-              </li>
-              <li>supports innovation, research, and knowledge sharing</li>
-              <li>
-                provides access to institutional and global academic resources
-              </li>
-            </ul>
-            <p>
-              The digital repository enables users to explore, access, and
-              preserve scholarly content efficiently, ensuring knowledge is
-              accessible anytime, anywhere.
-            </p>
-            <p>
-              Our repository supports students, faculty, and researchers by
-              offering a centralized system to explore, access, and preserve
-              scholarly content for academic and research excellence.
-            </p>
-
-            <ul class="feature-list">
-              <li>easy access to institutional research and publications</li>
-              <li>centralized platform for academic and scholarly resources</li>
-              <li>enhances learning, teaching, and research activities</li>
-              <li>secure and reliable access to digital content</li>
-            </ul>
-          </div> -->
-        </div>
-      }
+    <div class="container py-5">
+      <div class="jumbotron jumbotron-fluid">
+        <ds-markdown-viewer
+          [value]="homeNewsMetadataValue">
+        </ds-markdown-viewer>
+      </div>
     </div>
-  </div>
 
-  <picture class="background-image">
-    <source
-      type="image/webp"
-      srcset="
-        assets/dspace/images/unnamed.png 2000w,
-        assets/dspace/images/unnamed.png 1200w,
-        assets/dspace/images/unnamed.png  768w
-      "/>
+  } @else {
 
-    <source
-      type="image/jpeg"
-      srcset="
-        assets/dspace/images/unnamed.png 2000w,
-        assets/dspace/images/unnamed.png 1200w,
-        assets/dspace/images/unnamed.png  768w
-      "
-    />
+    <!-- HERO SECTION -->
+    <section class="hero-section">
 
-    <img alt="" src="assets/dspace/images/unnamed.png" class="banner-img" />
-  </picture>
+      <div class="hero-overlay">
 
-  <small class="credits">
-    © ICFAI Foundation for Higher Education (IFHE)
-  </small>
+        <h4 class="university-name">
+          IFHE Library
+        </h4>
+
+        <!-- <h1 class="library-title">
+          N J Yasaswy Memorial Library
+        </h1> -->
+
+        <!-- <h2 class="repository-title">
+          Institutional Repository
+        </h2> -->
+
+        <!-- <p class="hero-description">
+          Access thesis, journals, faculty publications,
+          conference papers, and digital academic resources.
+        </p> -->
+
+        <!-- SEARCH BOX -->
+        <div class="search-box">
+
+          <input type="text" placeholder="Search thesis, journals, books..."/>
+
+          <button>
+            Search
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- QUICK ACCESS -->
+    <section class="quick-access-section container">
+
+      <div class="quick-card">
+        <h3>Thesis</h3>
+      </div>
+
+      <div class="quick-card">
+        <h3>Journals</h3>
+      </div>
+
+      <div class="quick-card">
+        <h3>Faculty Publications</h3>
+      </div>
+
+      <div class="quick-card">
+        <h3>Conference Papers</h3>
+      </div>
+
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+
+      <div class="stat-box">
+        <h2>12,500+</h2>
+        <p>Publications</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>4,200+</h2>
+        <p>Thesis</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>3,800+</h2>
+        <p>Faculty Papers</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>1M+</h2>
+        <p>Downloads</p>
+      </div>
+
+    </section>
+
+    <!-- RECENT PUBLICATIONS -->
+    <section class="recent-section container">
+
+      <h2 class="section-title">
+        Recently Added Publications
+      </h2>
+
+      <div class="publication-grid">
+
+        <div class="publication-card">
+          <h3>Machine Learning Research</h3>
+          <p>Faculty Publication</p>
+        </div>
+
+        <div class="publication-card">
+          <h3>Digital Libraries</h3>
+          <p>Research Thesis</p>
+        </div>
+
+        <div class="publication-card">
+          <h3>Cloud Computing</h3>
+          <p>Conference Paper</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FOOTER INFO -->
+    <!-- <section class="footer-note">
+
+      <p>
+        © ICFAI Foundation for Higher Education (IFHE)
+      </p>
+
+    </section> -->
+
+  }
+
 </div>

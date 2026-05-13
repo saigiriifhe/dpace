@@ -8,6 +8,7 @@ import { MarkdownViewerComponent } from 'src/app/shared/markdown-viewer/markdown
 
 import { HomeCoarComponent } from '../../../../app/home-page/home-coar/home-coar.component';
 import { ThemedHomeNewsComponent } from '../../../../app/home-page/home-news/themed-home-news.component';
+
 import { HomePageComponent as BaseComponent } from '../../../../app/home-page/home-page.component';
 import { RecentItemListComponent } from '../../../../app/home-page/recent-item-list/recent-item-list.component';
 import { ThemedTopLevelCommunityListComponent } from '../../../../app/home-page/top-level-community-list/themed-top-level-community-list.component';

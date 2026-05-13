@@ -1,0 +1,75 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary-color: #0B1F3A;
+  --secondary-color: #7B1113;
+  --accent-color: #D4AF37;
+  --background-color: #F8F9FA;
+  --text-color: #222;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Merriweather', serif;
+  color: var(--primary-color);
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-color);
+}
+
+/* CARDS */
+.library-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.library-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ACCESSIBILITY */
+.accessibility-controls button {
+  margin-left: 8px;
+  border: none;
+  background: white;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
