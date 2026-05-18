@@ -1,5 +1,5 @@
 <div id="header-navbar-wrapper"><!-- [class.open]="!(isNavBarCollapsed$ | async)" -->
-  <ds-header></ds-header>
+  <ds-navbar></ds-navbar>
   <!-- Collapsible navbar (mobile only) -->
   @if ((isMobile$ | async)) {
     <div id="mobile-navbar-wrapper" [@slideMobileNav]="(isNavBarCollapsed$ | async) ? 'collapsed' : 'expanded'">
